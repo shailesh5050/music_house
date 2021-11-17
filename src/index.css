@@ -38,7 +38,7 @@
 header {
   width: 100vw;
   height: 60px;
-  padding: 0 15vw 0 26vw;
+  padding: 0 15vw 0 22vw;
 
   display: flex;
   align-items: center;
@@ -168,6 +168,39 @@ header button img {
   .player-container>img {
     border-radius: 50%;
     width: 50vw;
+    margin-bottom: 15px;
+  }
+  
+}
+@media screen and (max-width: 520px) {
+  .player-container>img {
+    border-radius: 50%;
+    width: 60vw;
+    margin-bottom: 15px;
+  }
+  .player-controls #input {
+    width: 65vw;
+    margin: 0 10px 0 10px;
+    background: red;
+  }
+  header {
+    
+    padding: 0 2vw 0 5vw;
+  
+  
+  }
+  .library {
+   
+    width: 250px;
+   
+  }
+  
+  
+}
+@media screen and (max-width: 320px) {
+  .player-container>img {
+    border-radius: 50%;
+    width: 90vw;
     margin-bottom: 15px;
   }
   
